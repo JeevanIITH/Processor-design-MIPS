@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"D:\vhdl_github_2\vhdl_github_2\p2\p1\instruction_block.vhd" Line 53: <arg fmt="%s" index="1">instruction_memory</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"D:\vhdl_github_2\vhdl_github_2\p2\p1\instruction_block.vhd" Line 40: Net &lt;<arg fmt="%s" index="1">instruction_memory[6][31]</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="76" delta="new" >"D:\vhdl_github_2\vhdl_github_2\p2\p1\MUlT.vhd" Line 70: <arg fmt="%s" index="1">statement</arg> is not synthesizable since it does not hold its value under NOT(clock-edge) condition
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"D:\vhdl_github_2\vhdl_github_2\p2\p1\shift_left_module.vhd" Line 47: <arg fmt="%s" index="1">a</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"D:\vhdl_github_2\vhdl_github_2\p2\p1\alu.vhd" Line 239: <arg fmt="%s" index="1">r_mult</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"D:\vhdl_github_2\vhdl_github_2\p2\p1\alu.vhd" Line 242: <arg fmt="%s" index="1">output_counter</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"D:\vhdl_github_2\vhdl_github_2\p2\p1\alu.vhd" Line 255: <arg fmt="%s" index="1">output_counter</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"D:\vhdl_github_2\vhdl_github_2\p2\p1\alu.vhd" Line 208: Assignment to <arg fmt="%s" index="1">str_mult</arg> ignored, since the identifier is never used
+</msg>
+
+</messages>
+

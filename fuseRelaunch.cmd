@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "D:/vhdl_github_2/vhdl_github_2/p2/p1/Test_p1_2_isim_beh.exe" -prj "D:/vhdl_github_2/vhdl_github_2/p2/p1/Test_p1_2_beh.prj" "work.Test_p1_2" 

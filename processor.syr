@@ -1,0 +1,313 @@
+Release 14.1 - xst P.15xf (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.18 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.18 secs
+ 
+--> Reading design: processor.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "processor.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "processor"
+Output Format                      : NGC
+Target Device                      : xc7a100t-3-csg324
+
+---- Source Options
+Top Module Name                    : processor
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "D:\vhdl_github_2\vhdl_github_2\p2\p1\one_bit_adder.vhd" into library work
+Parsing entity <one_bit_adder>.
+Parsing architecture <struct> of entity <one_bit_adder>.
+Parsing VHDL file "D:\vhdl_github_2\vhdl_github_2\p2\p1\Two_bit_adder.vhd" into library work
+Parsing entity <Two_bit_adder>.
+Parsing architecture <st1> of entity <two_bit_adder>.
+Parsing VHDL file "D:\vhdl_github_2\vhdl_github_2\p2\p1\four_bit_adder.vhd" into library work
+Parsing entity <four_bit_adder>.
+Parsing architecture <Behavioral> of entity <four_bit_adder>.
+Parsing VHDL file "D:\vhdl_github_2\vhdl_github_2\p2\p1\adder_8bit.vhd" into library work
+Parsing entity <adder_8bit>.
+Parsing architecture <Behavioral> of entity <adder_8bit>.
+Parsing VHDL file "D:\vhdl_github_2\vhdl_github_2\p2\p1\two_complement.vhd" into library work
+Parsing entity <two_complement>.
+Parsing architecture <Behavioral> of entity <two_complement>.
+Parsing VHDL file "D:\vhdl_github_2\vhdl_github_2\p2\p1\add_enable.vhd" into library work
+Parsing entity <add_enable>.
+Parsing architecture <Behavioral> of entity <add_enable>.
+Parsing VHDL file "D:\vhdl_github_2\vhdl_github_2\p2\p1\adder-16.vhd" into library work
+Parsing entity <adder_16>.
+Parsing architecture <Behavioral> of entity <adder_16>.
+Parsing VHDL file "D:\vhdl_github_2\vhdl_github_2\p2\p1\xor_bit.vhd" into library work
+Parsing entity <xor_bit>.
+Parsing architecture <Behavioral> of entity <xor_bit>.
+Parsing VHDL file "D:\vhdl_github_2\vhdl_github_2\p2\p1\shift_left_module.vhd" into library work
+Parsing entity <shift_left_module>.
+Parsing architecture <Behavioral> of entity <shift_left_module>.
+Parsing VHDL file "D:\vhdl_github_2\vhdl_github_2\p2\p1\or_bit.vhd" into library work
+Parsing entity <or_bit>.
+Parsing architecture <Behavioral> of entity <or_bit>.
+Parsing VHDL file "D:\vhdl_github_2\vhdl_github_2\p2\p1\MUlT.vhd" into library work
+Parsing entity <MUlT>.
+Parsing architecture <Behavioral> of entity <mult>.
+Parsing VHDL file "D:\vhdl_github_2\vhdl_github_2\p2\p1\enable_demux_bus.vhd" into library work
+Parsing entity <enable_demux_bus>.
+Parsing architecture <Behavioral> of entity <enable_demux_bus>.
+Parsing VHDL file "D:\vhdl_github_2\vhdl_github_2\p2\p1\div1.vhd" into library work
+Parsing entity <div1>.
+Parsing architecture <Behavioral> of entity <div1>.
+Parsing VHDL file "D:\vhdl_github_2\vhdl_github_2\p2\p1\demux.vhd" into library work
+Parsing entity <demux>.
+Parsing architecture <Behavioral> of entity <demux>.
+Parsing VHDL file "D:\vhdl_github_2\vhdl_github_2\p2\p1\counter_module.vhd" into library work
+Parsing entity <counter_module>.
+Parsing architecture <Behavioral> of entity <counter_module>.
+Parsing VHDL file "D:\vhdl_github_2\vhdl_github_2\p2\p1\AND.vhd" into library work
+Parsing entity <and_bit>.
+Parsing architecture <Behavioral> of entity <and_bit>.
+Parsing VHDL file "D:\vhdl_github_2\vhdl_github_2\p2\p1\adder_32.vhd" into library work
+Parsing entity <adder_32>.
+Parsing architecture <Behavioral> of entity <adder_32>.
+Parsing VHDL file "D:\vhdl_github_2\vhdl_github_2\p2\p1\zero_m.vhd" into library work
+Parsing entity <zero_m>.
+Parsing architecture <Behavioral> of entity <zero_m>.
+Parsing VHDL file "D:\vhdl_github_2\vhdl_github_2\p2\p1\sign_extend.vhd" into library work
+Parsing entity <sign_extend>.
+Parsing architecture <Behavioral> of entity <sign_extend>.
+Parsing VHDL file "D:\vhdl_github_2\vhdl_github_2\p2\p1\shift_left_2.vhd" into library work
+Parsing entity <shift_left_2>.
+Parsing architecture <Behavioral> of entity <shift_left_2>.
+Parsing VHDL file "D:\vhdl_github_2\vhdl_github_2\p2\p1\register_file.vhd" into library work
+Parsing entity <register_file>.
+Parsing architecture <Behavioral> of entity <register_file>.
+Parsing VHDL file "D:\vhdl_github_2\vhdl_github_2\p2\p1\pc_mux.vhd" into library work
+Parsing entity <pc_mux>.
+Parsing architecture <Behavioral> of entity <pc_mux>.
+Parsing VHDL file "D:\vhdl_github_2\vhdl_github_2\p2\p1\pc_main_helper.vhd" into library work
+Parsing entity <pc_main_helper>.
+Parsing architecture <Behavioral> of entity <pc_main_helper>.
+Parsing VHDL file "D:\vhdl_github_2\vhdl_github_2\p2\p1\pc_main.vhd" into library work
+Parsing entity <pc_main>.
+Parsing architecture <Behavioral> of entity <pc_main>.
+Parsing VHDL file "D:\vhdl_github_2\vhdl_github_2\p2\p1\mux_reg.vhd" into library work
+Parsing entity <mux_reg>.
+Parsing architecture <Behavioral> of entity <mux_reg>.
+Parsing VHDL file "D:\vhdl_github_2\vhdl_github_2\p2\p1\mux_mem.vhd" into library work
+Parsing entity <mux_mem>.
+Parsing architecture <Behavioral> of entity <mux_mem>.
+Parsing VHDL file "D:\vhdl_github_2\vhdl_github_2\p2\p1\mux_alu.vhd" into library work
+Parsing entity <mux_alu>.
+Parsing architecture <Behavioral> of entity <mux_alu>.
+Parsing VHDL file "D:\vhdl_github_2\vhdl_github_2\p2\p1\mem_addr_helper.vhd" into library work
+Parsing entity <mem_addr_helper>.
+Parsing architecture <Behavioral> of entity <mem_addr_helper>.
+Parsing VHDL file "D:\vhdl_github_2\vhdl_github_2\p2\p1\memory.vhd" into library work
+Parsing entity <memory>.
+Parsing architecture <Behavioral> of entity <memory>.
+Parsing VHDL file "D:\vhdl_github_2\vhdl_github_2\p2\p1\instruction_block.vhd" into library work
+Parsing entity <instruction_block>.
+Parsing architecture <Behavioral> of entity <instruction_block>.
+Parsing VHDL file "D:\vhdl_github_2\vhdl_github_2\p2\p1\Control_Unit.vhd" into library work
+Parsing entity <Control_Unit>.
+Parsing architecture <Behavioral> of entity <control_unit>.
+Parsing VHDL file "D:\vhdl_github_2\vhdl_github_2\p2\p1\branch_and.vhd" into library work
+Parsing entity <branch_and>.
+Parsing architecture <Behavioral> of entity <branch_and>.
+Parsing VHDL file "D:\vhdl_github_2\vhdl_github_2\p2\p1\alu_control.vhd" into library work
+Parsing entity <alu_control>.
+Parsing architecture <Behavioral> of entity <alu_control>.
+Parsing VHDL file "D:\vhdl_github_2\vhdl_github_2\p2\p1\alu.vhd" into library work
+Parsing entity <alu>.
+Parsing architecture <Behavioral> of entity <alu>.
+Parsing VHDL file "D:\vhdl_github_2\vhdl_github_2\p2\p1\add_pc.vhd" into library work
+Parsing entity <add_pc>.
+Parsing architecture <Behavioral> of entity <add_pc>.
+Parsing VHDL file "D:\vhdl_github_2\vhdl_github_2\p2\p1\add_branch.vhd" into library work
+Parsing entity <add_branch>.
+Parsing architecture <Behavioral> of entity <add_branch>.
+Parsing VHDL file "D:\vhdl_github_2\vhdl_github_2\p2\p1\processor.vhd" into library work
+Parsing entity <processor>.
+Parsing architecture <Behavioral> of entity <processor>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <processor> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <add_pc> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <add_branch> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <shift_left_2> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <zero_m> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <branch_and> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <pc_mux> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <pc_main> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <pc_main_helper> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <instruction_block> (architecture <Behavioral>) from library <work>.
+WARNING:HDLCompiler:92 - "D:\vhdl_github_2\vhdl_github_2\p2\p1\instruction_block.vhd" Line 53: instruction_memory should be on the sensitivity list of the process
+WARNING:HDLCompiler:634 - "D:\vhdl_github_2\vhdl_github_2\p2\p1\instruction_block.vhd" Line 40: Net <instruction_memory[6][31]> does not have a driver.
+
+Elaborating entity <sign_extend> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <mux_reg> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <register_file> (architecture <Behavioral>) with generics from library <work>.
+
+Elaborating entity <Control_Unit> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <alu> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <adder_32> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <add_enable> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <two_complement> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <adder_16> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <adder_8bit> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <four_bit_adder> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <Two_bit_adder> (architecture <st1>) from library <work>.
+
+Elaborating entity <one_bit_adder> (architecture <struct>) from library <work>.
+
+Elaborating entity <MUlT> (architecture <Behavioral>) from library <work>.
+ERROR:HDLCompiler:76 - "D:\vhdl_github_2\vhdl_github_2\p2\p1\MUlT.vhd" Line 70: statement is not synthesizable since it does not hold its value under NOT(clock-edge) condition
+Netlist MUlT(Behavioral) remains a blackbox, due to errors in its contents
+
+Elaborating entity <div1> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <and_bit> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <or_bit> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <xor_bit> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <shift_left_module> (architecture <Behavioral>) from library <work>.
+WARNING:HDLCompiler:92 - "D:\vhdl_github_2\vhdl_github_2\p2\p1\shift_left_module.vhd" Line 47: a should be on the sensitivity list of the process
+
+Elaborating entity <enable_demux_bus> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <demux> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <counter_module> (architecture <Behavioral>) from library <work>.
+WARNING:HDLCompiler:92 - "D:\vhdl_github_2\vhdl_github_2\p2\p1\alu.vhd" Line 239: r_mult should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "D:\vhdl_github_2\vhdl_github_2\p2\p1\alu.vhd" Line 242: output_counter should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "D:\vhdl_github_2\vhdl_github_2\p2\p1\alu.vhd" Line 255: output_counter should be on the sensitivity list of the process
+WARNING:HDLCompiler:1127 - "D:\vhdl_github_2\vhdl_github_2\p2\p1\alu.vhd" Line 208: Assignment to str_mult ignored, since the identifier is never used
+
+Elaborating entity <mem_addr_helper> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <alu_control> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <memory> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <mux_mem> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <mux_alu> (architecture <Behavioral>) from library <work>.
+--> 
+
+Total memory usage is 4510608 kilobytes
+
+Number of errors   :    1 (   0 filtered)
+Number of warnings :    7 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

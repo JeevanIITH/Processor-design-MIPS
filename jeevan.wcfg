@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="D:/vhdl_github_2/vhdl_github_2/p2/p1/Test_p1_2_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_textio" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="test_p1_2" />
+            <top_module name="textio" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="23" />
+   <wvobject fp_name="/test_p1_2/clock" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_p1_2/alu_in_m" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">alu_in_m</obj_property>
+      <obj_property name="ObjectShortName">alu_in_m</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_p1_2/reg_reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reg_reset</obj_property>
+      <obj_property name="ObjectShortName">reg_reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_p1_2/pc_reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">pc_reset</obj_property>
+      <obj_property name="ObjectShortName">pc_reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_p1_2/pc_enable" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">pc_enable</obj_property>
+      <obj_property name="ObjectShortName">pc_enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_p1_2/pc_write_signal" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">pc_write_signal</obj_property>
+      <obj_property name="ObjectShortName">pc_write_signal</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_p1_2/alu_second_result" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">alu_second_result[31:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_second_result[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_p1_2/alu_immediate_signal" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">alu_immediate_signal[31:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_immediate_signal[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_p1_2/alu_out_m" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">alu_out_m</obj_property>
+      <obj_property name="ObjectShortName">alu_out_m</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_p1_2/clock_period" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">clock_period</obj_property>
+      <obj_property name="ObjectShortName">clock_period</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_p1_2/uut/registers/sel_reg_b" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sel_reg_b[4:0]</obj_property>
+      <obj_property name="ObjectShortName">sel_reg_b[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_p1_2/uut/registers/sel_reg_a" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sel_reg_a[4:0]</obj_property>
+      <obj_property name="ObjectShortName">sel_reg_a[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_p1_2/uut/registers/reg_b" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">reg_b[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_b[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_p1_2/uut/registers/reg_a" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">reg_a[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_a[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_p1_2/uut/memory_unit/memory[0]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[0]</obj_property>
+      <obj_property name="ObjectShortName">memory[0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_p1_2/uut/memory_unit/mem_write" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">mem_write</obj_property>
+      <obj_property name="ObjectShortName">mem_write</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_p1_2/uut/memory_unit/clock" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_p1_2/uut/memory_unit/address" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">address[4:0]</obj_property>
+      <obj_property name="ObjectShortName">address[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_p1_2/uut/memory_unit/mem_write" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">mem_write</obj_property>
+      <obj_property name="ObjectShortName">mem_write</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_p1_2/uut/memory_unit/write_data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">write_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">write_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_p1_2/uut/memory_unit/mem_read" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">mem_read</obj_property>
+      <obj_property name="ObjectShortName">mem_read</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_p1_2/uut/memory_unit/read_data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">read_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">read_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_p1_2/uut/memory_unit/memory" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">memory[0:31]</obj_property>
+      <obj_property name="ObjectShortName">memory[0:31]</obj_property>
+   </wvobject>
+</wave_config>
